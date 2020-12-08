@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style/main.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Tic Tac Toe</h1>
+      <button onClick="newGame()">New Game</button>
+    </header>
+    <main>
+      <div class="row">
+        <button id="0" onClick="activate(this.id)"></button>
+        <button id="1" onClick="activate(this.id)"></button>
+        <button id="2" onClick="activate(this.id)"></button>
+      </div>
+      <div class="row">
+        <button id="3" onClick="activate(this.id)"></button>
+        <button id="4" onClick="activate(this.id)"></button>
+        <button id="5" onClick="activate(this.id)"></button>
+      </div>
+      <div class="row">
+        <button id="6" onClick="activate(this.id)"></button>
+        <button id="7" onClick="activate(this.id)"></button>
+        <button id="8" onClick="activate(this.id)"></button>
+      </div>
+      <h2 id="win"></h2>
+    </main>
+  </body>
+</html>
